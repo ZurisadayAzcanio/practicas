@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>  <title> PRÁCTICA 5 </title>
+    <meta charset="UTF-8">
+<meta name="author" content="Zurisaday">
+</head>
+
+
+<body> 
+    <h1>FORMULARIO DE REGISTRO DE ALUMNOS DE NUEVO INGRESO</h1>
+    <form>
+        <p>Nombre completo</p>
+        <input type="text" name="Nombre_Completo"required>
+
+        <p>Correo Electronico</p>
+        <input type="email" id="email" name="Correo_Electronico" required>
+
+        <p>Contraseña</p>
+        <input type="password" id="password" name="Contraseña" required>
+
+        
+        <p>Género</p>
+        <input type="radio" id="Hombre" name="Género">
+        <label for="Hombre"> Hombre ></label>
+
+        <input type="radio" id="Mujer" name="Género" value="Mujer">
+        <label for="Mujer">mujer</label>
+
+        <input type="radio" id="Otro" name="Género" value="Otro">
+        <label for="Otro" otro>otro</label>
+
+        <p>Intereses</p>
+        <input type="checkbox" id="Deportes" name="Interes_Deportes" value="Deportes" checked>
+        <label for="Deportes">Deportes</label><br>
+        <input type="checkbox" id="Música" name="Interes_Música" value="Música" checked>
+        <label for="Música">Música</label><br>
+        <input type="checkbox" id="Tecnología" name="Interese_Tecnología" value="Tecnología">
+        <label for="Tecnología">Tecnlogía</label><br></br>
+
+        <!--Carrera a la que aspiras-->
+        <label for="Carrera"> Carrera a la que Aspiras: </label>
+        <select id="Carrera" name="Carrera_Aspirante">
+            <option value="Ingenieria en Sistemas Computacionales">Ingenieria en Sistemas Computacionales</option>
+            <option value="Ingenieria Civil"> Ingenieria Civil</option>
+            <option value="Arquitectura" > Arquitectura </option>
+            <option value="Ingenieria en Mecatrónica"> Ingenieria en Mecatrónica</option>
+        </select><br></br>
+
+        <!--Comentario Adicionales-->
+        <label for="Comentarios" >Comentarios Adicionales: </label><br>
+
+        <textarea id="Comentarios" name="Comentarios_Adicionales" rows="4" cols="50"></textarea><br></br>
+        <!--Botones-->
+        <button type="submit" > Enviar Formulario</button>
+        <button type="reset">Restablecer Formulario </button>
+
+
+    </form>
+</body>
+</html>
